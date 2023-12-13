@@ -69,16 +69,11 @@
   header{
     display:flex;
     align-items: center;
-
     position: sticky;
     top: 0;
     background-color: var(--dunkelblau);
-  
-    padding-bottom:15px;/*because when sticky some margin is needed*/
-  
+    padding-bottom:15px;
     z-index: 200;
-
-
   }
   
 .logo{
@@ -121,3 +116,70 @@
   border-bottom-color: var(--blue);
 }
   
+
+  /* FOOTER */
+
+  footer{
+    background-color: var(--dunkelblau);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top:50px;
+    margin-bottom: 20px;
+  }
+
+  #footer_text{
+    flex:1;
+    font-size: 1.2em;
+    padding-left: 40px;
+  }
+
+
+  #footer_links{
+    flex:2;
+    font-size: 1.2em;
+  }
+
+  .footer_button{
+    background-color: var(--türkis);
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    padding: 4px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.6em;
+    margin: 8px 5px 4px 5px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+  .footer_button a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer_button:hover{
+    background-color: var(--hellblau);
+    color: var(--dunkelblau);
+  }
+
+
+  #footer_icons{
+    flex:1;
+    font-size: 1.2em;
+  }
+
+  #footer_icons img{
+    width: 40px;
+    height: 40px;
+    padding: 0px 5px;
+  }
+
+#footer_icons img:hover{
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+}
