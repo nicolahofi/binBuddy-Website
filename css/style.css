@@ -124,9 +124,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    padding-top:50px;
+    margin-top: 7%;
+    padding-top:10px;
     margin-bottom: 20px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: var(--grün);
   }
 
   #footer_text{
