@@ -85,6 +85,10 @@
     background-color: var(--dunkelblau);
     padding-bottom:15px;
     z-index: 200;
+    margin-bottom: 7%;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: var(--grün);
   }
   
 .logo{
@@ -153,6 +157,7 @@
   #footer_links{
     flex:2;
     font-size: 1.2em;
+    text-align: center;
   }
 
   .footer_button{
@@ -184,6 +189,8 @@
   #footer_icons{
     flex:1;
     font-size: 1.2em;
+    padding-right: 40px;
+    text-align: right;
   }
 
   #footer_icons img{
