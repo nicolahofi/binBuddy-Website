@@ -34,8 +34,6 @@
 
 
 
-
-
   /* HEADER (Logo/Navigation) */
   
   header{
@@ -54,6 +52,7 @@
 }
 
 .nav_links{
+  color: var(--türkis);
   display:flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -67,13 +66,17 @@
   box-sizing:border-box;
   height:40px;
   padding: 10px 15px 0px 15px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.4em;
 }
 
 
 .nav_links li a:hover, .aktiver_menuelink{
   color:var(--blue);
   border-bottom-style: solid;
-  border-bottom-width: 5px;
+  border-bottom-width: 4px;
   border-bottom-color: var(--blue);
 }
   
