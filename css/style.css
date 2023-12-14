@@ -2,6 +2,7 @@
     --dunkelblau: #183941;
     --hellblau: #87B6CB;
     --türkis: #00A99D;
+    --türkislowop: #00a99e38;
     --grün: #A4C55B;
     font-family: 'Jockey One', sans-serif;}
   
@@ -47,6 +48,7 @@
   
   h1 {
     color: var(--grün);
+    font-size: 3em;
   }
 
   h2 {
@@ -204,3 +206,64 @@
     height: 40px;
     opacity: 0.5;
 }
+
+
+
+/* KONTAKTSEITE */
+
+.kontaktformular {
+  background-color: var(--türkislowop);
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.3em;
+  margin-bottom: 7%;
+  padding: 15px;
+
+}
+
+#name {
+  margin: 10px;
+  padding: 3px;
+  width: 20%;
+}
+
+#email {
+  margin: 10px;
+  padding: 3px;
+  width: 30%;
+}
+
+#message {
+  resize: none;
+  width: 90%;
+  margin: 10px;
+  background-color: var(--hellblau);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: 'Jockey One', sans-serif;
+  font-size: 0.8em;
+}
+
+.kontaktformular button {
+  background-color: var(--türkis);
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.kontaktformular label {
+  margin: 10px;
+}
+
+.kontaktformular input {
+  background-color: var(--hellblau);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: 'Jockey One', sans-serif;
+  font-size: 0.8em;
+}
+
