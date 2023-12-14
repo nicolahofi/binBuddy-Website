@@ -45,6 +45,12 @@
     width:100%;
     height:100%;       
   }
+
+  .karte {
+    background-color: var(--dunkelblau);
+    width:100%;
+    height:100%;       
+  }
   
   h1 {
     color: var(--grün);
@@ -215,10 +221,12 @@
   background-color: var(--türkislowop);
   color: white;
   border-radius: 5px;
-  width: 100%;
+  width: 100% -15px;
   font-size: 1.3em;
   margin-bottom: 7%;
-  padding: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
 
 }
 
@@ -253,6 +261,9 @@
   padding: 2px 20px;
   margin: 10px;
   cursor: pointer;
+  font-family: 'Jockey One', sans-serif;
+  font-size: 0.8em;
+
 }
 
 .kontaktformular label {
@@ -267,3 +278,14 @@
   font-size: 0.8em;
 }
 
+
+
+
+
+/* KARTE */
+
+#map {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 7%;
+}
