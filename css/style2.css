@@ -60,7 +60,15 @@
     font-size: 1.3em;
   }
   
-
+  .links{
+    color: var(--hellblau);
+    text-decoration: none;
+  }
+  
+  .links:hover{
+    color: var(--türkis);
+    text-decoration: none;
+  }
 
 
 
@@ -203,4 +211,65 @@
     width: 40px;
     height: 40px;
     opacity: 0.5;
+}
+
+
+/* UEBER UNS */
+
+.vision_text{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(--hellblau);
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.quotes{
+  font-size: 1.8em;
+  padding: 7px;
+  color: white;
+}
+
+.team_member{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.team_member_bild{
+  flex:1;
+  padding: 20px;
+}
+
+.team_member_text{
+  flex:4;
+  padding: 20px;
+}
+
+.binbuddy_maillink{
+  color: var(--türkis);
+  text-decoration: none;
+}
+
+.binbuddy_maillink:hover{
+  color: var(--hellblau);
+  text-decoration: underline;
+}
+
+.facts{
+  font-size: 1.1em;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: var(--hellblau);
+}
+
+#yara_text, #cecilia_text, #nicola_text{
+  text-align: left;
+}
+
+#adrian_text, #steve_text{
+  text-align: right;
 }
