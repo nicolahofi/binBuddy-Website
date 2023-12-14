@@ -285,7 +285,12 @@
 /* KARTE */
 
 #map {
-  height: 500px;
+  height: 700px;
   width: 100%;
   margin-bottom: 7%;
+}
+
+h3 {
+  color: var(--grün);
+  font-size: 1em;
 }
