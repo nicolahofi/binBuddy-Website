@@ -283,8 +283,22 @@
   color: white;
   border-radius: 5px;
   width: 100%;
-  font-size: 1.3em;
   margin-bottom: 7%;
-  padding: 15px;
+  padding:10px;
+}
 
+.wertereihe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wert {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.wert:hover {
+  background-color: var(--dunkelblau);
 }
