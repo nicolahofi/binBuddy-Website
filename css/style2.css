@@ -2,6 +2,7 @@
     --dunkelblau: #183941;
     --hellblau: #87B6CB;
     --türkis: #00A99D;
+    --türkislowop: #00a99e38;
     --grün: #A4C55B;
     font-family: 'Jockey One', sans-serif;}
   
@@ -272,4 +273,18 @@
 
 #adrian_text, #steve_text{
   text-align: right;
+}
+
+
+/* werte */
+
+.werte {
+  background-color: var(--türkislowop);
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.3em;
+  margin-bottom: 7%;
+  padding: 15px;
+
 }
