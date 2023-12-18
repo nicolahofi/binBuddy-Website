@@ -24,22 +24,57 @@ function initMap(){
     
     {
       location:{lat: 46.85719987945518, lng: 9.518000876366889}, 
-      imageIcon: "img/karton_icon.png",
+      imageIcon: "img/karton_icon.png", //MULTI
       content: `<h3>Multisammelstelle Industriestrasse</h3>`
     },
 
     {
       location:{lat: 46.85101329014681, lng: 9.537040027852614},
-      imageIcon: "img/glas_icon.png", 
-      content: `<h3>Multisammelstelle Reichsgasse</h3>`
+      imageIcon: "img/karton_icon.png", //MULTI
+      content: `<h3>Multisammelstelle Reichsgasse</h3>` 
     },
 
     {
-      location:{lat: 38.5411, lng: -0.1225},content: `<h2>Benidorm City</h2>`
-    }
+      location:{lat: 46.858795809657344, lng: 9.55139307616712},
+      imageIcon: "img/karton_icon.png", //ALU, GLAS
+      content: `<h3>Plantaweg 2A</h3>` 
+    },
 
+    {
+      location:{lat: 46.856005288780864, lng: 9.525947605871954},
+      imageIcon: "img/karton_icon.png", //ALU, GLAS
+      content: `<h3>Scalettastrasse 33</h3>` 
+    },
 
+    {
+      location:{lat: 46.856005288780864, lng: 9.525947605871954},
+      imageIcon: "img/karton_icon.png", //ALU, GLAS
+      content: `<h3>Scalettastrasse 33</h3>` 
+    },
 
+    {
+      location:{lat: 46.86224196212597, lng: 9.546247015719848},
+      imageIcon: "img/karton_icon.png", //PET, PLASTIK
+      content: `<h3>LIDL Wiesentalstrasse 98</h3>` 
+    },
+
+    {
+      location:{lat: 46.84641800975893, lng: 9.51320368714983},
+      imageIcon: "img/karton_icon.png", //PET, ALU
+      content: `<h3>Coop Pronto Spundistrasse 11</h3>` 
+    },
+
+    {
+      location:{lat: 46.853031193249976, lng: 9.533012965068997},
+      imageIcon: "img/karton_icon.png", //PET
+      content: `<h3>Coop City Alexanderstrasse 8</h3>` 
+    },
+
+    {
+      location:{lat: 46.852129757476995, lng: 9.532290060089935},
+      imageIcon: "img/karton_icon.png", //PET
+      content: `<h3>Kiosk Quaderstrasse 2</h3>` 
+    },
   ]
 
   // loop through marker
@@ -71,7 +106,7 @@ function initMap(){
           content: property.content
   });
   
-  marker.addListener("mouseover", () =>{
+  marker.addListener("click", () =>{
       detailWindow.open(map, marker);
   })
 }

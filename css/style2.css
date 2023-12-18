@@ -340,3 +340,12 @@
 .wert:hover {
   background-color: var(--dunkelblau);
 }
+
+
+/* Ueber uns */
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
