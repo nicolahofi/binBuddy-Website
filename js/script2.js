@@ -1,19 +1,19 @@
-let currentIndex = 0;
+const carouselItems = document.querySelectorAll(".carousel_item"); 
+let i = 1;
 
-function changeSlide(direction) {
-    const quoteCarousel = document.getElementById('quote-carousel');
-    const quoteCards = document.querySelectorAll('.quote-card');
-    const cardWidth = quoteCards[0].offsetWidth;
+setInterval(() => {
+// Accessing All the carousel Items
+carouselItems.forEach((item) => {
 
-    currentIndex = (currentIndex + direction + quoteCards.length) % quoteCards.length;
+   if(i < carouselItems.length){
+    item.style.transform = `translateX(-${i*100}%)`
+   }
+  })
 
-    quoteCarousel.style.transform = `translateX(${-currentIndex * cardWidth}px)`;
-}
 
-function autoRotate() {
-    setInterval(() => {
-        changeSlide(1);
-    }, 5000); // Change quote every 3 seconds
-}
-
-autoRotate();
+  if(i < carouselItems.length){
+    i++;
+  } else{
+    i=0;
+  }
+},5000)

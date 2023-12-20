@@ -168,29 +168,14 @@
     text-align: center;
   }
 
-  .footer_button{
-    background-color: var(--türkis);
-    border: 1px solid white;
-    color: white;
-    text-transform: uppercase;
-    padding: 4px 25px;
-    text-align: center;
+  .footer_link{
+    color: var(--hellblau);
     text-decoration: none;
-    display: inline-block;
-    font-size: 0.6em;
-    margin: 8px 5px 4px 5px;
-    cursor: pointer;
-    border-radius: 16px;
+    padding: 0px 7px;
   }
 
-  .footer_button a{
-    color: white;
-    text-decoration: none;
-  }
-
-  .footer_button:hover{
-    background-color: var(--hellblau);
-    color: var(--dunkelblau);
+  .footer_link:hover{
+    color: var(--türkis);
   }
 
 

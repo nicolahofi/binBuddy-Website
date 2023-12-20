@@ -159,29 +159,14 @@
     text-align: center;
   }
 
-  .footer_button{
-    background-color: var(--türkis);
-    border: 1px solid white;
-    color: white;
-    text-transform: uppercase;
-    padding: 4px 25px;
-    text-align: center;
+  .footer_link{
+    color: var(--hellblau);
     text-decoration: none;
-    display: inline-block;
-    font-size: 0.6em;
-    margin: 8px 5px 4px 5px;
-    cursor: pointer;
-    border-radius: 16px;
+    padding: 0px 7px;
   }
 
-  .footer_button a{
-    color: white;
-    text-decoration: none;
-  }
-
-  .footer_button:hover{
-    background-color: var(--hellblau);
-    color: var(--dunkelblau);
+  .footer_link:hover{
+    color: var(--türkis);
   }
 
 
@@ -207,45 +192,31 @@
 
 /* HOMEPAGE */
 
-#quote-container {
-  text-align: center;
-  max-width: 100%;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-}
-
-#quote-carousel {
+.carousel_items {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  overflow: hidden;
 }
 
-.quote-card {
-  flex: 0 0 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 0 10px;
+.carousel_item {
+  position: relative;
+  min-width: 100%;
+  margin: 50px 0px;
+  transition: all 0.5s linear;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-#prev, #next {
-  cursor: pointer;
-  font-size: 24px;
-  margin-top: 10px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #333;
+.zitat {
+  text-align: center;
+  color: var(--hellblau);
+  font-style: italic;
+  font-size: 1.5em;
 }
 
-#prev {
-  left: 10px;
-}
-
-#next {
-  right: 10px;
+.quelle {
+  font-size: 1.2em;
+  text-align: center;
 }
 
 
