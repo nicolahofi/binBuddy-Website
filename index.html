@@ -34,7 +34,7 @@
 
     <main>
         <div class="welcome">
-            <h1> 
+            <h1>
                 Hey Freunde! Willkommen bei binBuddy!
             </h1>
             <p>
@@ -42,7 +42,13 @@
             </p>
         </div>
 
+        <!-- lets go btn -->
+        <div id="letsgobtndiv">
+            <a href="karte.html"><button id="letsgobtn">Los geht's</button></a>
+        </div>
+        
 
+        <!-- quotes -->
         <div class="carousel-container">
             <div class="carousel_items">
                  <!-- quote 1 -->
@@ -100,41 +106,78 @@
             </h1>
 
             <p>
-                BinBuddy setzt auf hilfsbereite Partner:innen. Dazu gehören Vereine und Organisationen wie Swiss Recycle oder PET-Recycling Schweiz. Auch Produzent:innen wie El-Tony oder Sparana sind wir dankbar. Sie übernehmen Verantwortung für den Abfall, der durch ihre Produkte entsteht. Diese Partnergemeinschaft nutzen wir, um unsere Seite weiter zu verbreiten und das mühelose Recycling allen zugänglich zu machen.
+                BinBuddy setzt auf hilfsbereite Partner:innen. Dazu gehören Vereine und Organisationen wie <a href="https://swissrecycle.ch/de/home" target="_blank" class="links">Swiss Recycle</a> oder <a href="https://petrecycling.ch/" target="_blank" class="links">PET-Recycling</a> Schweiz. Auch Produzent:innen wie <a href="https://www.eltonymate.com/" target="_blank" class="links">El-Tony</a> oder  <a href="https://sparana.ch/" target="_blank" class="links">Sparana</a> sind wir dankbar. Sie übernehmen Verantwortung für den Abfall, der durch ihre Produkte entsteht. Diese Partnergemeinschaft nutzen wir, um unsere Seite weiter zu verbreiten und das mühelose Recycling allen zugänglich zu machen.
             </p>
 
-            <img src="img/swiss_recycle_logo_türkis.png" alt="Swiss Recycle Logo">
-            <img src="img/pet_logo_türkis.png" alt="PET-Recycling Logo">
-            <img src="img/el_tony_logo_türkis.png" alt="El-Tony Logo">
-            <img src="img/sparana_logo_türkis.png" alt="Sparana Logo">
+            <div id="partner_icons">
+                <a href="https://swissrecycle.ch/de/home" target="_blank"><img src="img/swiss_recycle_logo_türkis.png" alt="Swiss Recycle Logo"></a>
+                <a href="https://petrecycling.ch/" target="_blank"><img src="img/pet_logo_türkis.png" alt="PET-Recycling Logo"></a>
+                <a href="https://www.eltonymate.com/" target="_blank" ><img src="img/el_tony_logo_türkis.png" alt="El-Tony Logo"></a>
+                <a href="https://sparana.ch/" target="_blank"><img src="img/sparana_logo_türkis.png" alt="Sparana Logo"></a>
+            </div>
+
         </div>
 
         <div class="rezensionen">
             <h1> Kund:innenrezensionen</h1>
+        
+            <!-- rezession -->
+            <div class="rezession">
+                <p class="review">
+                    <span class="quotes">«</span>Dank binBuddy konnte ich während meinem Wanderurlaub in Albanien entspannt recyclen.<span class="quotes">»</span>
+                </p>
+    
+                <div id="reviewerWithStar">
+                    <p class="reviewer">
+                        - Simone
+                    </p>
+                    <div class="stars">
+                        <img src="img/stern.svg" alt="stern">
+                        <img src="img/stern.svg" alt="stern">
+                        <img src="img/stern.svg" alt="stern">
+                        <img src="img/stern.svg" alt="stern">
+                        <img src="img/stern.svg" alt="stern">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- rezession -->
+            <div class="rezession">
+                <p class="review">
+                    <span class="quotes">«</span>Die Idee ist super und es funktioniert meistens auch ganz gut, allerdings fehlt mir ein bisschen der Anreiz, auch selber aktiv mitzumachen.<span class="quotes">»</span>
+                </p>
+    
+                <div id="reviewerWithStar">
+                    <p class="reviewer">
+                        - Harald
+                    </p>
+                    <div class="stars">
+                        <img src="img/stern.svg" alt="stern">
+                        <img src="img/stern.svg" alt="stern">
+                        <img src="img/stern.svg" alt="stern">
+                        <img src="img/stern.svg" alt="stern">
+                    </div>
+                </div>
+            </div>
+            
 
-            <p class="review">
-                Dank binBuddy konnte ich während meinem Wanderurlaub in Albanien entspannt recyclen. 
-            </p>
+             <!-- rezession -->
+             <div class="rezession">
+                <p class="review">
+                    <span class="quotes">«</span>gibts schon!<span class="quotes">»</span>
+                </p>
+    
+                <div id="reviewerWithStar">
+                    <p class="reviewer">
+                        - Marcel
+                    </p>
+                    <div class="stars">
+                        <img src="img/stern.svg" alt="stern">
+                    </div>
+                </div>
+            </div>
 
-            <p class="reviewer">
-                - Simone
-            </p>
-
-            <p class="review">
-                Die Idee ist super und es funktioniert meistens auch ganz gut, allerdings fehlt mir ein bisschen der Anreiz, auch selber aktiv mitzumachen.
-            </p>
-
-            <p class="reviewer">
-                - Harald
-            </p>
-
-            <p class="review">
-                gibts schon!
-            </p>
-
-            <p class="reviewer">
-                - Marcel
-            </p>
+            
         </div>
 
     </main>
@@ -160,7 +203,7 @@
             <a href="https://twitter.com/clixylikesmusic" target="_blank" ><img id="twitter_icon" src="img/x_türkis.png" alt="Twitter Icon"></a>
             <a href="https://www.tiktok.com/@ceciliacommisso" target="_blank"><img id="tiktok_icon" src="img/tiktok_türkis.png" alt="TikTok Icon"></a>
             <a href="https://www.linkedin.com/in/yara-burkhalter-62a155284/" target="_blank"><img id="linkedin_icon" src="img/linkedin_türkis.png" alt="LinkedIn Icon"></a>
-            </div>
+        </div>
 
       </footer>
 
