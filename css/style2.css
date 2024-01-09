@@ -482,3 +482,34 @@
   padding-right: 20px;
   margin-top: 0;
 }
+
+.new-message {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.new-message-input {
+  flex: 4;
+  font-family: 'Jockey One', sans-serif;
+  font-size: 1.1em;
+  padding: 10px;
+}
+
+.new-message-btn {
+  flex: 1;
+  background-color: var(--türkis);
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-size: 1.4em;
+  border: none;
+  font-family: 'Jockey One', sans-serif;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.new-message-btn:hover {
+  background-color: var(--dunkelblau);
+}
