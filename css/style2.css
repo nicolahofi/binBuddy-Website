@@ -11,10 +11,29 @@
     height: auto;
   }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  main {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
   main {
     margin-left: 15%;
     margin-right: 15%;
   }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  main {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
   
   .index {
     background-color: var(--dunkelblau);
@@ -382,6 +401,51 @@
 
 #adrian_text, #steve_text{
   text-align: right;
+}
+
+#yara_bild{
+  border-radius: 5%;
+  background-image: url('/img/yara.png');
+}
+
+#yara_bild:hover{
+  background: url('/img/yarahover.png');
+}
+
+#adrian_bild{
+  border-radius: 5%;
+  background-image: url('/img/adrian.png');
+}
+
+#adrian_bild:hover{
+  background: url('/img/adrianhover.png');
+}
+
+#cecilia_bild{
+  border-radius: 5%;
+  background-image: url('/img/cecilia.png');
+}
+
+#cecilia_bild:hover{
+  background: url('/img/ceciliahover.png');
+}
+
+#steve_bild{
+  border-radius: 5%;
+  background-image: url('/img/steve.png');
+}
+
+#steve_bild:hover{
+  background: url('/img/stevehover.png');
+}
+
+#nicola_bild{
+  border-radius: 5%;
+  background-image: url('/img/nicola.png');
+}
+
+#nicola_bild:hover{
+  background: url('/img/nicolahover.png');
 }
 
 
