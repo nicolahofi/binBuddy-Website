@@ -12,7 +12,7 @@
   }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (min-width: 356px) { 
   main {
     margin-left: 10%;
     margin-right: 10%;
@@ -30,8 +30,8 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   main {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 23%;
+    margin-right: 23%;
   }
 }
   
