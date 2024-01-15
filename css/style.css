@@ -330,7 +330,7 @@
   text-align: right;
 }
 
-#reviewerWithStar{
+.reviewerWithStar{
   display: flex;
   align-items: center;
 }
