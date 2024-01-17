@@ -548,46 +548,56 @@
 #yara_bild{
   border-radius: 5%;
   background-image: url('/img/yara.png');
+  background-repeat: no-repeat;
 }
 
 #yara_bild:hover{
   background: url('/img/yarahover.png');
+  background-repeat: no-repeat;
 }
 
 #adrian_bild{
   border-radius: 5%;
   background-image: url('/img/adrian.png');
+  background-repeat: no-repeat;
 }
 
 #adrian_bild:hover{
   background: url('/img/adrianhover.png');
+  background-repeat: no-repeat;
 }
 
 #cecilia_bild{
   border-radius: 5%;
   background-image: url('/img/cecilia.png');
+  background-repeat: no-repeat;
 }
 
 #cecilia_bild:hover{
   background: url('/img/ceciliahover.png');
+  background-repeat: no-repeat;
 }
 
 #steve_bild{
   border-radius: 5%;
   background-image: url('/img/steve.png');
+  background-repeat: no-repeat;
 }
 
 #steve_bild:hover{
   background: url('/img/stevehover.png');
+  background-repeat: no-repeat;
 }
 
 #nicola_bild{
   border-radius: 5%;
   background-image: url('/img/nicola.png');
+  background-repeat: no-repeat;
 }
 
 #nicola_bild:hover{
   background: url('/img/nicolahover.png');
+  background-repeat: no-repeat;
 }
 
 

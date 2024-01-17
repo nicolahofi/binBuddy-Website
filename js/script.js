@@ -146,4 +146,4 @@ carouselItems.forEach((item) => {
   } else{
     i=0;
   }
-},5000)
+}, 5000);
