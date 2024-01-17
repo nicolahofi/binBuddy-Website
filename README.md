@@ -19,4 +19,6 @@ Treten Sie uns bei in unserer Mission, das Recycling einfacher und zugänglicher
 
 ## Quellen / Hilfsmittel
 
-@Nicola - TODO
+Für die Custom-Map mit den Recycling-Icons auf der Karte-Seite haben wir uns folgendes Tutorial angeschaut: 
+Für die Grundstruktur des Formulars und Teile des Forums zu erstellen benutzen wir ChatGPT.
+Ansonsten haben wir vor allem mit den Vorschlägen des Github Copilot gearbeitet.
